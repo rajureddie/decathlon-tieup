@@ -1,16 +1,5 @@
 const sportsData = [
-    {
-        id: 'mountain-trekking',
-        name: 'Mountain & Trekking',
-        icon: 'fa-solid fa-mountain',
-        bg: './assets/images/mountain-trekking.jpg'
-    },
-    {
-        id: 'running',
-        name: 'Running',
-        icon: 'fa-solid fa-person-running',
-        bg: './assets/images/running.jpg'
-    },
+
     {
         id: 'skating',
         name: 'Skating',
@@ -29,6 +18,19 @@ const sportsData = [
         icon: 'fa-solid fa-dumbbell',
         bg: './assets/images/gym-fitness.jpg'
     },
+    {
+        id: 'mountain-trekking',
+        name: 'Mountain & Trekking',
+        icon: 'fa-solid fa-mountain',
+        bg: './assets/images/mountain-trekking.jpg'
+    },
+    {
+        id: 'running',
+        name: 'Running',
+        icon: 'fa-solid fa-person-running',
+        bg: './assets/images/running.jpg'
+    },
+
     {
         id: 'basketball',
         name: 'Basketball',
