@@ -48,42 +48,71 @@ const sportsData = [
         name: 'Swimming',
         icon: 'fa-solid fa-person-swimming',
         bg: './assets/images/swimming.jpg'
+    },
+    {
+        id: 'football',
+        name: 'Football',
+        icon: 'fa-solid fa-futbol',
+        bg: './assets/images/football.jpg'
+    },
+    {
+        id: 'pickleball',
+        name: 'Pickleball',
+        icon: 'fa-solid fa-table-tennis-paddle-ball',
+        bg: './assets/images/pickleball.jpg'
     }
 ];
 
 const partnersData = {
     'running': [
-        { name: 'City Striders Marathon Club', distance: '1.0 km', fees: '₹ 800 / month', website: 'https://example.com/citystriders', contact: '+91 98765 43210', maps: 'https://maps.google.com/?q=City+Striders', description: 'Join our marathon club for daily runs, endurance training, and expert pacing strategies.' },
-        { name: 'Elite Track Academy', distance: '2.5 km', fees: '₹ 1,200 / month', contact: '+91 87654 32109', maps: 'https://maps.google.com/?q=Elite+Track+Academy', description: 'Professional track coaching for aspiring sprint and long-distance athletes.' }
+
     ],
     'skating': [
-        { name: 'Roller Rink Pros', distance: '4.8 km', fees: '₹ 1,500 / month', website: 'https://example.com/rollerrink', contact: '+91 76543 21098', maps: 'https://maps.google.com/?q=Roller+Rink+Pros', description: 'Indoor roller rink with professional coaching for inline and quad skating.' },
-        { name: 'Urban Glide Skating', distance: '6.2 km', fees: '₹ 1,000 / month', contact: '+91 65432 10987', maps: 'https://maps.google.com/?q=Urban+Glide+Skating', description: 'Outdoor urban skating classes focused on balance, speed, and agility.' }
+        { name: 'Stratos Tightend Arena', distance: '2.0 km', fees: 'Contact Facility', contact: 'Walk-in', maps: 'https://maps.google.com/?q=Stratos+Tightend+Arena+Kukatpally', description: 'Skating academy located in Kukatpally (PIN: 500072).' },
+        { name: 'Sk8skool Sports Academy', distance: '5.5 km', fees: 'Contact Facility', contact: '+91 99729 98476', maps: 'https://maps.google.com/?q=Sk8skool+Sports+Academy+Bowrampet', description: 'S.No.803-805, Near Indian Oil Petrol Bunk, Oakridge School Road (PIN: 500090).' }
     ],
     'cricket': [
-        { name: 'Master Blasters Academy', distance: '1.5 km', fees: '₹ 2,500 / month', website: 'https://example.com/masterblasters', contact: '+91 54321 09876', maps: 'https://maps.google.com/?q=Master+Blasters+Academy', description: 'Premium cricket coaching facility featuring bowling machines and professional grass pitches.' },
-        { name: 'Pace & Spin Cricket Coaching', distance: '3.0 km', fees: '₹ 2,000 / month', contact: '+91 43210 98765', maps: 'https://maps.google.com/?q=Pace+and+Spin', description: 'Specialized coaching focusing on fast bowling and spin variations.' },
-        { name: 'NextGen Cricketers', distance: '5.1 km', fees: '₹ 1,800 / month', contact: '+91 32109 87654', maps: 'https://maps.google.com/?q=NextGen+Cricketers', description: 'Youth-focused cricket development programs with certified coaches.' }
+        { name: 'SV Cricket Academy', distance: '4.5 km', fees: 'Contact Facility', contact: 'Verify Location', maps: 'https://maps.google.com/?q=SV+Cricket+Academy+Nizampet', description: 'Cricket academy located in Nizampet/Hafeezpet area (PIN: 500090).' },
+        { name: 'RC Cricket Academy', distance: '6.0 km', fees: 'Contact Facility', contact: 'Walk-in', maps: 'https://maps.google.com/?q=RC+Cricket+Academy+Miyapur', description: 'Opposite Ratnadeep Supermarket, Westend Colony, Bandlaguda/Miyapur (PIN: 500049).' },
+        { name: 'KPRR Bigbox Cricket', distance: '4.5 km', fees: 'Contact Facility', contact: 'Book via App/Walk-in', maps: 'https://maps.google.com/?q=KPR+Box+Cricket+Nizampet', description: 'Swapna Sai Nivas, Balaji Hills Colony, Venkatraya Nagar, Nizampet (PIN: 500090).' },
+        { name: 'Stratos Tightend Arena', distance: '2.0 km', fees: 'Contact Facility', contact: 'Walk-in', maps: 'https://maps.google.com/?q=Stratos+Tightend+Arena+Kukatpally', description: 'Multi-sport and box cricket arena located in Kukatpally (PIN: 500072).' },
+        { name: 'Playing 11 (SAG Sports)', distance: '1.5 km', fees: 'Contact Facility', website: 'https://sagsplaying11.com', contact: '+91 93914 25692', maps: 'https://maps.google.com/?q=Playing+11+Box+Cricket+Kukatpally', description: 'Beside Vajras Adobe, Sangeet Nagar, Shivayagari Nagar, Kukatpally (PIN: 500072).' }
     ],
     'gym-fitness': [
-        { name: 'Iron Core Fitness', distance: '0.8 km', fees: '₹ 1,500 / month', website: 'https://example.com/ironcore', contact: '+91 21098 76543', maps: 'https://maps.google.com/?q=Iron+Core+Fitness', description: 'State-of-the-art gym equipment with personalized fitness coaching and diet plans.' },
-        { name: 'FitLife Studio', distance: '1.2 km', fees: '₹ 2,000 / month', contact: '+91 10987 65432', maps: 'https://maps.google.com/?q=FitLife+Studio', description: 'Boutique fitness studio offering HIIT, yoga, and functional training.' }
+        { name: 'NavYoga Academy', distance: '2.0 km', fees: 'Contact Facility', website: 'https://navyoga.in', contact: '+91 85005 99642', maps: 'https://maps.google.com/?q=NavYoga+Academy+Kukatpally', description: 'Plot 3/A, Rd No 1, KPHB Phase 5, Kukatpally (500072).' },
+        { name: 'Jayravi Yogashala', distance: '1.5 km', fees: 'Contact Facility', contact: 'Check JustDial', maps: 'https://maps.google.com/?q=Jayravi+Yogashala+Kukatpally', description: 'Beside Dhanalaxmi Centre, Rd No 2, Kukatpally.' },
+        { name: 'TATVA YOGA Studio', distance: '4.5 km', fees: 'Contact Facility', website: 'https://tatvayoga.in', contact: '+91 89775 43454', maps: 'https://maps.google.com/?q=TATVA+YOGA+Studio+Pragathi+Nagar', description: '401 Harmony Tower, Pragathi Nagar (500090).' },
+        { name: 'Nirvaana Yoga Academy', distance: '3.0 km', fees: 'Contact Facility', contact: '+91 94946 51333', maps: 'https://maps.google.com/?q=Nirvaana+Yoga+Academy+Kukatpally', description: 'Plot No 71, Samhitha Enclave, KPHB Phase 9 (500085).' },
+        { name: 'Body Beast Gym', distance: '2.5 km', fees: 'Contact Facility', contact: '+91 99660 00616', maps: 'https://maps.google.com/?q=Body+Beast+Gym+Kukatpally', description: 'Vijaya Residency Rd, Bagh Ameer, Kukatpally (500072).' },
+        { name: 'Phoenix Fitness', distance: '12.0 km', fees: 'Contact Facility', website: 'https://phoenixfitnesshyderabad.com', contact: '+91 70933 43485', maps: 'https://maps.google.com/?q=Phoenix+Fitness+Petbasheerabad', description: '3rd Floor, Above Max Showroom, Petbasheerabad (500055).' },
+        { name: 'Saaram Studio', distance: '5.0 km', fees: 'Contact Facility', contact: 'Check JustDial', maps: 'https://maps.google.com/?q=Saaram+Studio+Moosapet', description: 'Plot No 13, Mystic Hills, Moosapet (500018).' },
+        { name: 'Biradhar Gym', distance: 'N/A', fees: 'Contact Facility', contact: 'Unverified Location', maps: 'https://maps.google.com/?q=Biradhar+Gym', description: 'Primarily found in Navi Mumbai. Contact facility directly.' },
+        { name: 'Ultra Muscle', distance: '4.5 km', fees: 'Contact Facility', contact: '+91 80088 73285', maps: 'https://maps.google.com/?q=Ultra+Muscle+Pragathi+Nagar', description: 'Banjara Towers, Kakatiya Hills, Pragathi Nagar (500090).' },
+        { name: 'Health Zone Fitness', distance: '1.5 km', fees: 'Contact Facility', contact: '+91 96662 21444', maps: 'https://maps.google.com/?q=Health+Zone+Fitness+Kukatpally', description: 'Andhra Bank Building, Balaji Nagar, Kukatpally (500072).' },
+        { name: 'Fitness Plus', distance: '2.0 km', fees: 'Contact Facility', contact: '+91 90000 76440', maps: 'https://maps.google.com/?q=Fitness+Plus+Kukatpally', description: 'BJP Office Rd, Shanthi Nagar, Kukatpally (500072).' },
+        { name: 'Aura X Gym', distance: '0.5 km', fees: 'Contact Facility', contact: 'Verify at center', maps: 'https://maps.google.com/?q=Aura+X+Gym+Kukatpally', description: 'Behind Lakshore Mall / Ashoka One Mall, Kukatpally.' }
     ],
     'mountain-trekking': [
-        { name: 'Everest Explorers Club', distance: '3.2 km', fees: '₹ 2,000 / trip', website: 'https://example.com/everest', contact: '+91 99887 76655', maps: 'https://maps.google.com/?q=Everest+Explorers+Club', description: 'Premier mountain trekking club offering guided trips, gear rental, and high-altitude training.' },
-        { name: 'Summit Seekers', distance: '5.5 km', fees: '₹ 1,500 / month', contact: '+91 88776 65544', maps: 'https://maps.google.com/?q=Summit+Seekers', description: 'Weekend hiking and outdoor survival skills workshops for beginners and pros.' }
+
     ],
     'basketball': [
-        { name: 'Hoop Dreams Academy', distance: '2.0 km', fees: '₹ 1,800 / month', website: 'https://example.com/hoopdreams', contact: '+91 77665 54433', maps: 'https://maps.google.com/?q=Hoop+Dreams+Academy', description: 'Indoor wooden courts with NBA-style training drills and local tournament prep.' },
-        { name: 'Slam Dunk Pros', distance: '4.5 km', fees: '₹ 1,500 / month', contact: '+91 66554 43322', maps: 'https://maps.google.com/?q=Slam+Dunk+Pros', description: 'Community basketball coaching focusing on shooting mechanics and teamwork.' }
+        { name: 'Don Bosco Basketball Academy', distance: '6.5 km', fees: 'Contact Facility', contact: '+91 81433 96779', maps: 'https://maps.google.com/?q=Don+Bosco+Basketball+Academy+Erragadda', description: 'Don Bosco High School, BSP Colony, Erragadda (PIN: 500018).' }
     ],
     'badminton': [
-        { name: 'Smash Hitters Hub', distance: '1.8 km', fees: '₹ 2,000 / month', website: 'https://example.com/smashhitters', contact: '+91 55443 32211', maps: 'https://maps.google.com/?q=Smash+Hitters+Hub', description: 'BWF standard courts with professional coaching for singles and doubles play.' },
-        { name: 'Shuttle Masters', distance: '3.5 km', fees: '₹ 1,500 / month', contact: '+91 44332 21100', maps: 'https://maps.google.com/?q=Shuttle+Masters', description: 'Beginner-friendly badminton coaching with regular weekend practice matches.' }
+        { name: 'KPR Badminton Stadium', distance: '4.5 km', fees: 'Contact Facility', contact: 'Book via Playo', maps: 'https://maps.google.com/?q=KPR+Badminton+Stadium+Nizampet', description: 'Badminton stadium offering coaching and hourly booking located in Nizampet (PIN: 500090).' }
     ],
     'swimming': [
-        { name: 'Aqua Life Aquatic Center', distance: '2.2 km', fees: '₹ 2,500 / month', website: 'https://example.com/aqualife', contact: '+91 33221 10099', maps: 'https://maps.google.com/?q=Aqua+Life+Center', description: 'Olympic-sized indoor temperature-controlled pool with advanced stroke coaching.' },
-        { name: 'Dolphin Swim School', distance: '4.0 km', fees: '₹ 1,800 / month', contact: '+91 22110 09988', maps: 'https://maps.google.com/?q=Dolphin+Swim+School', description: 'Learn-to-swim programs and water safety courses for all ages.' }
+        { name: 'Zion Sports Swimming Academy', distance: '10.0 km', fees: 'Contact Facility', contact: '+91 91212 91312', maps: 'https://maps.google.com/?q=Zion+Sportz+Swimming+Academy+Mallampet+Bachupally', description: 'Located in Mallampet, Bachupally (PIN: 500090).' },
+        { name: 'KPR Swimming Pool', distance: '7.0 km', fees: 'Contact Facility', contact: 'Walk-in', maps: 'https://maps.google.com/?q=KPR+Swimming+Pool+Miyapur', description: 'Located opposite Old Age Home, Miyapur (PIN: 500049).' },
+        { name: 'Rahul Swim Academy', distance: '2.0 km', fees: 'Contact Facility', contact: '+91 93928 85513', maps: 'https://maps.google.com/?q=Rahul+Swim+Academy+Kukatpally', description: 'CJR Sports Centre, Opp. Bhasyam Brooks School, Kukatpally (PIN: 500072).' },
+        { name: 'Seasons Indoor Swimming Pool', distance: '6.5 km', fees: 'Contact Facility', contact: '+91 91216 63784', website: 'https://seasonswim.com', maps: 'https://maps.google.com/?q=Seasons+Indoor+Swimming+Pool+Erragadda', description: 'Located beside Nissan Showroom, Sanath Nagar (PIN: 500018).' },
+        { name: 'Wild Waters', distance: '35.0 km', fees: 'Ticket based', website: 'https://wildwaters.in', contact: '+91 91779 97381', maps: 'https://maps.google.com/?q=Wild+Waters+Masaniguda+Shankarpally', description: 'Water park at Masaniguda Village, Shankarpally (PIN: 501203).' }
+    ],
+    'football': [
+        { name: 'Zion Sportz', distance: '10.0 km', fees: 'Contact Facility', website: 'https://zionsportz.com', contact: '+91 97045 26071', maps: 'https://maps.google.com/?q=Zion+Sportz+Mallampet+Bachupally', description: 'Football turf and professional sports training academy in Mallampet, Bachupally (PIN: 500090).' }
+    ],
+    'pickleball': [
+        { name: '4S Pickleball', distance: '6.0 km', fees: 'Contact Facility', website: 'https://4spickleball.com', contact: '+91 74168 96868', maps: 'https://maps.google.com/?q=4S+Pickleball+Mayuri+Nagar+Miyapur', description: 'Dedicated pickleball facility at MIG-1075, Rd Number 42B, Mayuri Nagar, Miyapur (PIN: 500049).' }
     ]
 };
 
@@ -100,6 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="modal-content">
                 <button class="close-modal" id="close-modal"><i class="fa-solid fa-xmark"></i></button>
                 <div class="modal-header">
+                    <img src="./assets/images/decathlon-logo.png" alt="Decathlon Logo" style="height: 25px; margin-bottom: 15px; opacity: 0.9; filter: brightness(0) invert(1);">
                     <h3 id="modal-title" class="partner-title"></h3>
                 </div>
                 <p id="modal-desc" class="modal-desc"></p>
@@ -128,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = `
             <div class="view">
                 <div class="hero-section">
-                    <h2>Find Your Perfect <span class="highlight">Coaching</span> Partner</h2>
+                    <h2>Find Your Perfect Decathlon Partner</h2>
                     <p>Elevate your game with top-rated facilities and expert coaches near you.</p>
                 </div>
                 <div class="container">
@@ -217,8 +247,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (partners.length === 0) {
             html += `
                 <div class="empty-state">
-                    <i class="fa-solid fa-box-open"></i>
-                    <p>No partners found for this sport in your area yet.</p>
+                    <i class="fa-solid fa-person-running"></i>
+                    <h3>Coming Soon!</h3>
+                    <p>We are currently expanding our coaching network for this sport.<br />Check back later to find your perfect Decathlon partner.</p>
                 </div>
             `;
         } else {
