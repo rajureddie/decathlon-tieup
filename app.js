@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = `
             <div class="view">
                 <div class="hero-section">
-                    <h2>Find Your Perfect Decathlon Facalities</h2>
+                    <h2>Find Your Perfect Decathlon Facilities</h2>
                     <p>Elevate your game with top-rated facilities and expert coaches near you.</p>
                 </div>
                 <div class="container">
