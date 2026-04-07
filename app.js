@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 <div class="section-header">
                     <div>
-                        <h2>${sport.name} Partners</h2>
+                        <h2>${sport.name} Facilities</h2>
                         <p>Top coaching facilities affiliated with us.</p>
                     </div>
                     <div class="search-box">
