@@ -18,7 +18,7 @@ const sportsData = [
         icon: 'fa-solid fa-dumbbell',
         bg: './assets/images/gym-fitness.jpg'
     },
-  
+
 
     {
         id: 'basketball',
@@ -50,7 +50,7 @@ const sportsData = [
         icon: 'fa-solid fa-table-tennis-paddle-ball',
         bg: './assets/images/pickleball.jpg'
     },
-      {
+    {
         id: 'mountain-trekking',
         name: 'Mountain & Trekking',
         icon: 'fa-solid fa-mountain',
@@ -65,7 +65,7 @@ const sportsData = [
 ];
 
 const partnersData = {
-    
+
     'skating': [
         { name: 'Stratos Tightend Arena', distance: '2.0 km', fees: 'Contact Facility', contact: 'Walk-in', maps: 'https://maps.google.com/?q=Stratos+Tightend+Arena+Kukatpally', description: 'Skating academy located in Kukatpally (PIN: 500072).' },
         { name: 'Sk8skool Sports Academy', distance: '5.5 km', fees: 'Contact Facility', contact: '+91 99729 98476', maps: 'https://maps.google.com/?q=Sk8skool+Sports+Academy+Bowrampet', description: 'S.No.803-805, Near Indian Oil Petrol Bunk, Oakridge School Road (PIN: 500090).' }
@@ -91,7 +91,7 @@ const partnersData = {
         { name: 'Fitness Plus', distance: '2.0 km', fees: 'Contact Facility', contact: '+91 90000 76440', maps: 'https://maps.google.com/?q=Fitness+Plus+Kukatpally', description: 'BJP Office Rd, Shanthi Nagar, Kukatpally (500072).' },
         { name: 'Aura X Gym', distance: '0.5 km', fees: 'Contact Facility', contact: 'Verify at center', maps: 'https://maps.google.com/?q=Aura+X+Gym+Kukatpally', description: 'Behind Lakshore Mall / Ashoka One Mall, Kukatpally.' }
     ],
-   
+
     'basketball': [
         { name: 'Don Bosco Basketball Academy', distance: '6.5 km', fees: 'Contact Facility', contact: '+91 81433 96779', maps: 'https://maps.google.com/?q=Don+Bosco+Basketball+Academy+Erragadda', description: 'Don Bosco High School, BSP Colony, Erragadda (PIN: 500018).' }
     ],
@@ -111,7 +111,7 @@ const partnersData = {
     'pickleball': [
         { name: '4S Pickleball', distance: '6.0 km', fees: 'Contact Facility', website: 'https://4spickleball.com', contact: '+91 74168 96868', maps: 'https://maps.google.com/?q=4S+Pickleball+Mayuri+Nagar+Miyapur', description: 'Dedicated pickleball facility at MIG-1075, Rd Number 42B, Mayuri Nagar, Miyapur (PIN: 500049).' }
     ],
-     'mountain-trekking': [
+    'mountain-trekking': [
 
     ],
     'running': [
@@ -161,14 +161,14 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = `
             <div class="view">
                 <div class="hero-section">
-                    <h2>Find Your Perfect Decathlon Partner</h2>
+                    <h2>Find Your Perfect Decathlon Facalities</h2>
                     <p>Elevate your game with top-rated facilities and expert coaches near you.</p>
                 </div>
                 <div class="container">
                     <div class="section-header">
                         <div>
                             <h2>Explore Sports</h2>
-                            <p>Select a sport to find the best coaching partners.</p>
+                            <p>Select a sport to find the best facilities.</p>
                         </div>
                         <div class="search-box">
                             <i class="fa-solid fa-magnifying-glass"></i>
